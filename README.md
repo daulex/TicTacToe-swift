@@ -2,6 +2,8 @@
 
 I used [this tutorial by Sean Allen](https://www.youtube.com/watch?v=MCLiPW2ns2w), but made some changes and adjustments to make it mine.
 
+The AI is rather challenging and most games end in a loss if you don't start with center square.
+
 I also refactored it to use MVVM architecture.
 
 ![Tic Tac Toe game screenshot](screenshot.png)
