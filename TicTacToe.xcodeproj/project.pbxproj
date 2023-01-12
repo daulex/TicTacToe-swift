@@ -11,6 +11,7 @@
 		CA33938C296FEDCE00276941 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33938B296FEDCE00276941 /* ContentView.swift */; };
 		CA33938E296FEDD000276941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA33938D296FEDD000276941 /* Assets.xcassets */; };
 		CA339391296FEDD000276941 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA339390296FEDD000276941 /* Preview Assets.xcassets */; };
+		CA33939D297001FE00276941 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA33939C297001FE00276941 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		CA33938B296FEDCE00276941 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA33938D296FEDD000276941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA339390296FEDD000276941 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA3393972970009400276941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CA33939C297001FE00276941 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		CA339388296FEDCE00276941 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				CA3393972970009400276941 /* Info.plist */,
+				CA33939C297001FE00276941 /* Alerts.swift */,
 				CA339389296FEDCE00276941 /* TicTacToeApp.swift */,
 				CA33938B296FEDCE00276941 /* ContentView.swift */,
 				CA33938D296FEDD000276941 /* Assets.xcassets */,
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA33938C296FEDCE00276941 /* ContentView.swift in Sources */,
+				CA33939D297001FE00276941 /* Alerts.swift in Sources */,
 				CA33938A296FEDCE00276941 /* TicTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +276,7 @@
 				DEVELOPMENT_TEAM = UC3956W482;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = TicTacToe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +305,7 @@
 				DEVELOPMENT_TEAM = UC3956W482;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = TicTacToe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
